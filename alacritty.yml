@@ -70,7 +70,7 @@
     dynamic_padding: true
     # dynamic_padding: false
     multiplier: 7 
-    gtk_theme_variant: dark
+    decorations_theme_variant: dark
     padding:
       x:  10
       y:  10
@@ -82,6 +82,7 @@
     class: 
       instance: Alacritty
       general: Alacritty
+    
 
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
@@ -243,9 +244,9 @@
       # background: '#1e222a' # ===> matches "OneDark"
       # background: '#24283b' # ===> matches "tokyonight storm"
       # background: '#1a1b26' # ===> matches "tokyonight night"
-      # background: '#F9F9F9'
       # background: '#232136' # ===> matches "rose-pine moon"
       background: '#2a2520' # ===> matches "melange"
+      # background: '#F9F9F9'
       # background: '#262a33' # ===> matches "zephyr"
       # background: '#263238' # ===> matches "material" 
       # background: '#25363b' # ===> matches "material oceanic next"
@@ -281,6 +282,7 @@
   #  cursor: CellForeground
     cursor:
       cursor: "#89ddff"
+
   # Vi mode cursor colors
   #
   # Colors for the cursor when the vi mode is active.
@@ -498,7 +500,11 @@
 # Live config reload (changes require restart)
 
 # Shell
-#
+
+  shell:
+    program: /bin/zsh
+
+
 # You can set `shell.program` to the path of your favorite shell, e.g.
 # `/bin/fish`. Entries in `shell.args` are passed unmodified as arguments to the
 # shell.
