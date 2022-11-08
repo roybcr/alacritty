@@ -72,8 +72,8 @@
     multiplier: 7 
     decorations_theme_variant: dark
     padding:
-      x:  10
-      y:  10
+      x: 0
+      y: 10
       # Some padding might look better, 
       # but it's annoying to modify Alacritty's background to match the active colortheme...
       # x: 10
