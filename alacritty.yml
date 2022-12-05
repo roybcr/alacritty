@@ -146,6 +146,9 @@
     bold:
         family: "JetBrainsMono Nerd Font Mono" 
         style: Bold
+    italic:
+        family: "JetBrainsMono Nerd Font Mono"
+        style: Regular
     ligatures: true
     size: 9.0  
     offset:
@@ -246,6 +249,7 @@
       # background: '#1a1b26' # ===> matches "tokyonight night"
       # background: '#232136' # ===> matches "rose-pine moon"
       background: '#2a2520' # ===> matches "melange"
+      # background: '#1F1F28' # ===> matches "kanangawa"
       # background: '#F9F9F9'
       # background: '#262a33' # ===> matches "zephyr"
       # background: '#263238' # ===> matches "material" 
