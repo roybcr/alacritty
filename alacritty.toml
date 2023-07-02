@@ -1,0 +1,96 @@
+live_config_reload = true
+# save_to_clipboard = true
+
+# [Cursor]
+# blinking = "On"
+# cursor = "#89ddff"
+# shape = "Beam"
+# thickness = 0.1
+
+[colors.primary]
+# background = "#1e222a" # ===> matches "OneDark"
+# background = "#24283b" # ===> matches "tokyonight storm"
+# background = "#1a1b26" # ===> matches "tokyonight night"
+# background = "#232136" # ===> matches "rose-pine moon"
+# background = "#2a2520" # ===> matches "melange"
+background = "#1F1F28" # ===> matches "kanangawa"
+# background = "#F9F9F9"
+# background = "#262a33" # ===> matches "zephyr"
+# background = "#263238" # ===> matches "material" 
+# background = "#25363b" # ===> matches "material oceanic next"
+# background = "#292d3e" # ===> matches "material palenight" 
+# background = "#2e3440"
+# background = "#f4f0ed" # ===> matches "melange light"
+# background = "transparent"
+
+[font]
+size = 9.0
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Medium"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "V"
+mode = "~Alt"
+mods = "Super"
+
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "Escape"
+mode = "Vi"
+
+[[keyboard.bindings]]
+action = "SearchForward"
+key = "S"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "SearchBackward"
+key = "B"
+mods = "Control|Shift"
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+decorations = "none"
+decorations_theme_variant = "Dark"
+dynamic_padding = true
+dynamic_title = false
+title = "Jarvis λ"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.dimensions]
+columns = 148
+lines = 48
+
+[window.padding]
+x = 0
+y = 10
